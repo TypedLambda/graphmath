@@ -17,7 +17,7 @@ defmodule Graphmath.Mixfile do
 
   defp description do
     """
-    Graphmath is a library for doing 2D and 3D mathemtical operations, using vectors and matrices.
+    Graphmath is a vector and matrix library for doing 2D and 3D mathemtical operations.
     """
   end
 
