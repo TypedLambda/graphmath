@@ -17,15 +17,14 @@ defmodule Graphmath.Mixfile do
 
   defp description do
     """
-    Graphmath is a library for doing 2D and 3D mathemtical operations.
+    Graphmath is a library for doing 2D and 3D mathemtical operations, using vectors and matrices.
     """
   end
 
   defp deps do
     [
-        # {:earmark, "~> 0.1", only: :dev },
-        # {:ex_doc, "~> 0.11.4", only: :dev},
-        {:ex_doc, github: "RobertDober/ex_doc",  only: :dev},
+        {:earmark, "~> 1.0", only: :dev },
+        {:ex_doc, "~> 0.13.0", only: :dev},
         {:excoveralls, "~> 0.3", only: :dev},
         {:inch_ex, "~> 0.5.1",  only: :docs}
     ]
