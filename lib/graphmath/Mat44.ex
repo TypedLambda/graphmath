@@ -1,9 +1,9 @@
 defmodule Graphmath.Mat44 do
 
     @moduledoc """
-    This is the 3D mathematics library for graphmath.
-
     This submodule handles 4x4 matrices using tuples of floats.
+
+    It is suitable for all affine transformations for 3D.
     """
 
     @type mat44 :: { float, float, float, float,

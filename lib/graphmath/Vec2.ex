@@ -1,9 +1,7 @@
 defmodule Graphmath.Vec2 do
 
     @moduledoc """
-    This is the 2D mathematics library for graphmath.
-
-    This submodule handles vectors stored as a tuple.
+    This submodule handles 2D vectors stored as a tuple of floats.
     """
 
     @type vec2 :: { float, float }

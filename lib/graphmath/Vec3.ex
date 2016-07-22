@@ -1,8 +1,6 @@
 defmodule Graphmath.Vec3 do
 
     @moduledoc """
-    This is the 3D mathematics library for graphmath.
-
     This submodule handles 3D vectors using tuples of floats.
     """
 

@@ -1,9 +1,11 @@
 defmodule Graphmath.Mat33 do
 
     @moduledoc """
-    This is the 3D mathematics library for graphmath.
-
     This submodule handles 3x3 matrices using tuples of floats.
+
+    It is suitable for all 2D affine transformations.
+
+    For 3D, it is only useful for scaling and rotation.
     """
 
     @type mat33 :: { float, float, float,
