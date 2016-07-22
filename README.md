@@ -46,7 +46,7 @@ Just add it to your `mix.exs` file like so:
      package: ...,
      deps: [
         ...,
-        {:graphmath, "~> 1.0.2" },
+        {:graphmath, "~> 1.0.3" },
         ...
         ] ]
   end
@@ -104,6 +104,7 @@ If you can't use *that*, fine--use the new BSD license.
 
 Contributors
 =============
+* Robert Dober
 * Chris Ertel
 * Ivan Miranda
 * Matthew Philyaw
