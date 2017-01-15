@@ -5,10 +5,10 @@ defmodule Graphmath.Mixfile do
     [app: :graphmath,
      version: "1.0.3",
      elixir: "~> 1.0",
-     description: description,
-     package: package,
+     description: description(),
+     package: package(),
      docs: &docs/0,
-     deps: deps,
+     deps: deps(),
      test_coverage: [tool: ExCoveralls]
      ]
   end
@@ -26,6 +26,7 @@ defmodule Graphmath.Mixfile do
         {:earmark, "~> 1.0", only: :dev },
         {:ex_doc, "~> 0.13.0", only: :dev},
         {:excoveralls, "~> 0.3", only: :dev},
+        {:dialyxir, "~> 0.4", only: :dev, runtime: false},
         {:inch_ex, "~> 0.5.1",  only: :docs}
     ]
   end
